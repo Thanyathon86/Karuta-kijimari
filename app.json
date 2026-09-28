@@ -46,8 +46,7 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true,
-      "baseUrl": "/Karuta-kijimari"
+      "reactCompiler": true
     },
     "extra": {
       "router": {},
