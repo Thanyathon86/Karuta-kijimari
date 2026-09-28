@@ -48,7 +48,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "deploy:web": "expo export -p web --clear && copy dist\\index.html dist\\404.html && type nul > dist\\.nojekyll && gh-pages -d dist -t"
+    "deploy:web": "expo export -p web --clear && eas deploy --prod"
   },
   "private": true
 }
